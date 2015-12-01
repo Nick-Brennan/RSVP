@@ -1,1 +1,8 @@
-<p>Exploring Meteor HTML file concatenation {{ '. trying to add some angular' + '!!' }}</p>
+<div ng-controller="PartiesListCtrl">
+	<ul>
+		<li ng-repeat="party in parties">
+			{{party.name}}
+			<p>{{party.description}}</p>
+		</li>
+	</ul>
+</div>
