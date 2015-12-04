@@ -1,3 +1,11 @@
-<body ng-app="rsvp">
-	<div ng-include="'main.html'"></div>
+<head>
+	<base href="/">
+</head>
+<body>
+	<div ng-app="rsvp" ng-strict-di="">
+		<h1>
+			<a href="/events">Home</a>
+		</h1>
+		<div ui-view></div>
+	</div>
 </body>
