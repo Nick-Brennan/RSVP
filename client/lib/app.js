@@ -1,0 +1,1 @@
+angular.module('rsvp', ['angular-meteor', 'ui.router']);
