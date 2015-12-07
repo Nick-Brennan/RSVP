@@ -1,1 +1,1 @@
-angular.module('rsvp', ['angular-meteor', 'ui.router']);
+angular.module('rsvp', ['angular-meteor', 'ui.router', 'accounts.ui']);
